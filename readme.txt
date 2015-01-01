@@ -3,4 +3,4 @@ add new line here
 modify 1
 modify 2
 add new branch!
-Creating a new branch is quick & simple.
+creating a new branch is quick and simple
