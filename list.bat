@@ -3,4 +3,6 @@ set hhmiss=%time:~0,2%%time:~3,2%%time:~6,2%
 set "filename=softwarelist%YYYYmmdd%_%hhmiss%.log"
 
 hostname >>%filename%
+
+#test
 powershell  "Get-WmiObject -class Win32_Product | Select-Object -Property name,vendor,version" >>%filename%
